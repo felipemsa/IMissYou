@@ -9,7 +9,7 @@
     tools:context=".MainActivity"
     android:layout_gravity="center"
     android:id="@+id/rlMain" >
-
+    
     <TextView
         android:id="@+id/tvPlay"
         android:layout_width="match_parent"
@@ -21,5 +21,13 @@
         android:textSize="18sp"
         android:layout_centerInParent="true"
         android:gravity="center" />
+    
+    <LinearLayout 
+        android:id="@+id/lnBan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" >
+    </LinearLayout>
 
 </RelativeLayout>
